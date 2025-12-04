@@ -300,3 +300,63 @@ header{
 .middle3 img{
     width: 350px;
 }
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333232;
+    color: #a9a5a5;
+    gap: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.ul-li2 li{
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.ul-li3 li{
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.footer-top img{
+    width: 50px;
+}
+
+.footer-top i{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-bottom{
+    font-size: 14px;
+}
